@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<style>
+
+svg {
+  font: 10px sans-serif; 
+}
+
+.background path {
+  fill: none;
+   stroke: none;
+stroke-width: 20px; 
+ shape-rendering: crispEdges;
+ pointer-events: stroke;
+}
+#table{
+  font-size: 10px;
+}
+.foreground path {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+}
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+.active .label:not(.inactive) {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.label.inactive {
+  fill: #ccc;
+}
+
+.foreground path.inactive {
+  stroke: #ccc;
+  stroke-opacity: .5;
+  stroke-width: 1px;
+}
+svg{
+  display: block;
+  margin: auto;
+}
+datafile {
+                text-align: right;
+                opacity: 0;     
+            }
+
+datafile td {
+                border: 1px black solid;
+                padding: 5px;
+                align-self: right;
+}
+.csvfile{
+               border-collapse: collapse; 
+                font: 12px sans-serif;
+                text-align: center;
+                margin:auto;
+                width:90%;
+                margin-left: 25px;
+               }
+
+</style>
+<body>
+    <input type="button" value="Back" onclick="window.location.href='../index.html'"  style="float:left">
+
+   <div id="scatterplot" align="center">
+      <h2 style = "text-transform: uppercase"; > Visual Decisions in Group 1 </h2>
+     <table id="table" align="right" style="font: 10px sans-serif">
+      <tr>
+     
+      <td id="td">cl: ceiling lamp</td>
+     </tr>
+     <tr>
+      <td>tl: task lamp</td>
+     </tr>
+     <tr>
+      <td>bl: blinds</td>
+     </tr>
+     
+
+      </table>
+     </h4>
+<script type="text/javascript" src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<script>
+
+
+var VCateg=["cl off","cl on","tl off","tl on","bl <50% open","bl =50% open","bl >50% open","0"];
+
+var margin = {top: 30, right: 20, bottom: 10, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal().rangePoints([0, width], 1),
+    y = {};
+
+var line = d3.svg.line(),
+    axis = d3.svg.axis().orient("left"),
+    background,
+    foreground;
+var line = d3.svg.line()
+    .defined(function(d) { return !isNaN(d[1]); });
+
+var yAxis = d3.svg.axis()
+    .orient("left");
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  
+
+d3.csv("VisualSouthDecisionCateg.csv", function(error, cars) {
+ x.domain(dimensions = d3.keys(cars[0]).filter(function(d) {
+      
+      //if(d == "Participant_id") return false;
+      
+      if (d==="Participant_id"){
+       y[d] = d3.scale.ordinal()
+            .domain(cars.map(function(p) { return p[d]; }))
+            .rangePoints([0, height],1);
+       }
+        else{
+           y[d] = d3.scale.ordinal()
+            .domain(VCateg)
+            .rangePoints([0, height],1);
+        }
+/*y[d]=d3.scale.ordinal().domain(["df0","df1","df2","df2","bl1","bl2","bl3","bl4","tl1"]).
+rangePoints([0,height],1);
+else{
+  y[d] = d3.scale.ordinal()
+            .domain(cars.map(function(p) { return p[d]; }))
+            .rangePoints([0, height],1);}
+ x.domain(dimensions = d3.keys(cars[0]).filter(function(d) {
+  
+    return d != "name" && (y[d] = d3.scale.ordinal()
+        .domain(d3.extent(cars, function(p) { return +p[d]; }))
+        .rangePoints([height, 0],1));*/
+      
+      return true;
+  }));
+ /*var dimension = svg.selectAll(".dimension")
+    .data(dimensions)
+  .enter().append("g")
+    .attr("class", "dimension")
+    .attr("transform", function(d) { return "translate(" + x(d.name) + ")"; });
+ */
+  background = svg.append("g")
+      .attr("class", "background")
+    .selectAll("path")
+      .data(cars)
+    .enter().append("path")
+      .attr("d", path);
+
+  // Add blue foreground lines for focus.
+  foreground = svg.append("g")
+      .attr("class", "foreground")
+    .selectAll("path")
+      .data(cars)
+    .enter().append("path")
+      .attr("d", path);
+
+  // Add a group element for each dimension.
+  var g = svg.selectAll(".dimension")
+      .data(dimensions)
+    .enter().append("g")
+      .attr("class", "dimension")
+      .attr("transform", function(d) { return "translate(" + x(d) + ")"; });
+
+  // Add an axis and title.
+  g.append("g")
+      .attr("class", "axis")
+      .each(function(d) { d3.select(this).call(axis.scale(y[d])); })
+    .append("text")
+      .style("text-anchor", "middle")
+      .attr("y", -9)
+      .text(function(d) { return d; });
+
+  var ordinal_labels = svg.selectAll(".axis text")
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
+
+  var projection = svg.selectAll(".background path,.foreground path")
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
+
+
+  function mouseover(d) {
+    svg.classed("active", true);
+      projection.classed("inactive", function(p) { return p !== d; });
+      projection.filter(function(p) { return p === d; }).each(moveToFront);
+      ordinal_labels.classed("inactive", function(p) { return p !== d; });
+      ordinal_labels.filter(function(p) { return p === d; }).each(moveToFront);
+    
+  }
+
+  function mouseout(d) {
+    svg.classed("active", false);
+    projection.classed("inactive", false);
+    ordinal_labels.classed("inactive", false);
+  }
+
+  function moveToFront() {
+    this.parentNode.appendChild(this);
+  }
+
+  
+});
+
+// Returns the path for a given data point.
+function path(d) {
+  return line(dimensions.map(function(p) { return [x(p), y[p](d[p])]; }));
+}
+
+
+
+</script>
+ </div>
+
+
+<div>
+<!-- <p style="margin-left:20px;margin-top: 50px">Click here to view the data source
+ <button class="View" style="color: orange;height: 25px;background-color: grey;" onclick="change_visibility()"> View Data</button>
+
+        <script type="text/javascript"charset="utf-8">
+          function change_visibility()
+          {
+          d3.select("datafile").style("opacity", 1);
+          } 
+            d3.text("VisualSouthDecisionCateg.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .attr("class","csvfile")
+                    .append("datafile")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; })
+                        .style("orient",right)
+                        ;
+            });
+        </script>
+      </p> -->
+      </div>
+    
+</body>
+</html>

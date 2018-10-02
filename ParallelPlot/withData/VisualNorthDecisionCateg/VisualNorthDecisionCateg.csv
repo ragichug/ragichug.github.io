@@ -1,0 +1,46 @@
+Participant_id,1st decision,2nd decision,3rd decision,4th decision,5th decision,6th decision,7th decision,8th decision,9th decision,10th decision,11th decision
+3,tl on,bl <50% open,cl on,0,0,0,0,0,0,0,0
+4,cl on,cl off,tl on,bl <50% open,cl on,0,0,0,0,0,0
+5,bl >50% open,cl on,0,0,0,0,0,0,0,0,0
+6,cl on,cl on,bl >50% open,tl on,cl off,tl on,bl >50% open,cl on,bl >50% open,bl >50% open,0
+7,0,0,0,0,0,0,0,0,0,0,0
+8,cl on,bl >50% open,0,0,0,0,0,0,0,0,0
+10,bl <50% open,cl on,tl on,0,0,0,0,0,0,0,0
+11,bl =50% open,cl on,0,0,0,0,0,0,0,0,0
+12,tl on,cl off,tl on,0,0,0,0,0,0,0,0
+13,tl on,bl >50% open,0,0,0,0,0,0,0,0,0
+14,bl >50% open,0,0,0,0,0,0,0,0,0,0
+15,tl on,bl >50% open,cl on,0,0,0,0,0,0,0,0
+16,tl on,cl on,0,0,0,0,0,0,0,0,0
+17,tl on,cl off,tl off,bl =50% open,cl off,0,0,0,0,0,0
+18,bl >50% open,cl on,cl on,tl off,0,0,0,0,0,0,0
+19,bl <50% open,tl on,cl on,cl off,tl off,0,0,0,0,0,0
+20,cl on,bl >50% open,0,0,0,0,0,0,0,0,0
+21,cl on,tl on,bl >50% open,0,0,0,0,0,0,0,0
+22,bl >50% open,cl on,0,0,0,0,0,0,0,0,0
+23,bl <50% open,cl off,tl on,bl >50% open,tl off,cl on,tl on,0,0,0,0
+24,cl off,bl <50% open,cl on,bl =50% open,cl on,0,0,0,0,0,0
+25,bl >50% open,0,0,0,0,0,0,0,0,0,0
+26,bl >50% open,cl on,bl =50% open,0,0,0,0,0,0,0,0
+27,bl >50% open,tl on,cl on,bl <50% open,bl >50% open,0,0,0,0,0,0
+28,bl >50% open,bl >50% open,cl on,0,0,0,0,0,0,0,0
+29,bl >50% open,0,0,0,0,0,0,0,0,0,0
+30,cl on,tl on,cl on,bl >50% open,0,0,0,0,0,0,0
+31,cl on,bl >50% open,cl off,tl on,0,0,0,0,0,0,0
+32,0,0,0,0,0,0,0,0,0,0,0
+33,tl on,cl on,cl on,cl on,tl on,cl off,0,0,0,0,0
+034final,cl on,tl on,cl on,0,0,0,0,0,0,0,0
+75,cl on,bl <50% open,0,0,0,0,0,0,0,0,0
+76,bl <50% open,cl on,tl off,cl off,cl on,tl on,0,0,0,0,0
+0001nsi,0,0,0,0,0,0,0,0,0,0,0
+0002ns-new,cl on,0,0,0,0,0,0,0,0,0,0
+3,cl on,cl on,0,0,0,0,0,0,0,0,0
+0008nsi,bl <50% open,tl off,bl <50% open,0,0,0,0,0,0,0,0
+0018nsi,0,0,0,0,0,0,0,0,0,0,0
+0020nsi,bl >50% open,0,0,0,0,0,0,0,0,0,0
+0019nsi,tl on,cl on,bl <50% open,tl on,0,0,0,0,0,0,0
+0024ns,cl on,tl on,bl >50% open,0,0,0,0,0,0,0,0
+0025nsi,cl on,0,0,0,0,0,0,0,0,0,0
+0026nsi,bl >50% open,cl on,0,0,0,0,0,0,0,0,0
+0027nsi,0,0,0,0,0,0,0,0,0,0,0
+0034nsi,0,0,0,0,0,0,0,0,0,0,0

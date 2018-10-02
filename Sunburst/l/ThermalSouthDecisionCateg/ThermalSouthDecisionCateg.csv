@@ -1,0 +1,18 @@
+"1st decision-2nd decision-3rd decision-4th decision-5th decision-6th decision-7th decision 
+",number of partcipants
+desk fan on-desk fan on-0-0-0-0-0,2
+desk fan on-thermostat on-0-0-0-0-0,1
+desk fan on-thermostat on-desk fan off-0-0-0-0,1
+desk fan on-0-0-0-0-0-0-end,16
+desk fan off-thermostat on-thermostat off-desk fan on-0-0-0,1
+desk fan off-heater off-thermostat off-0-0-0-0,1
+desk fan off-thermostat on-0-0-0-0-0,1
+desk fan off-0-0-0-0-0-0-end,2
+thermostat on-thermostat off-0-0-0-0-0,1
+thermostat on-desk fan on-0-0-0-0-0,3
+thermostat on-thermostat off-thermostat on-0-0-0-0,1
+thermostat on-0-0-0-0-0-0,2
+thermostat on-heater on-heater off-desk fan on-0-0-0-end,1
+thermostat off-desk fan on-0-0-0-0-0,1
+thermostat off-0-0-0-0-0-0-end,1
+0-0-0-0-0-0-0-end,10

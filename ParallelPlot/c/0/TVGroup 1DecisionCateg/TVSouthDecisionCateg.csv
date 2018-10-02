@@ -1,0 +1,46 @@
+Participant_id,1st decision,2nd decision,3rd decision,4th decision,5th decision,6th decision,7th decision,8th decision,9th decision,10th decision
+35,bl >50% open,df on,bl =50% open,cl on,bl <50% open,df on,0,0,0,0
+36-37 on paper,at on,bl <50% open,at off,0,0,0,0,0,0,0
+37-38 on paper,bl <50% open,df on,0,0,0,0,0,0,0,0
+38-39 on paper,at off,cl off,bl =50% open,tl off,df on,0,0,0,0,0
+39-41 on paper,df off,at on,cl on,at off,bl <50% open,df on,0,0,0,0
+43,bl <50% open,df on,0,0,0,0,0,0,0,0
+44,bl <50% open,df on,tl off,0,0,0,0,0,0,0
+46,df off,cl off,bl <50% open,0,0,0,0,0,0,0
+47,at on,bl <50% open,cl off,tl off,df on,0,0,0,0,0
+48,at on,df on,bl <50% open,tl on,0,0,0,0,0,0
+49,cl on,bl =50% open,df off,tl off,rh off,at off,bl <50% open,bl <50% open,0,0
+50,bl <50% open,cl off,tl on,cl on,tl off,at off,bl <50% open,0,0,0
+51,tl off,bl <50% open,tl on,0,0,0,0,0,0,0
+52,cl on,bl <50% open,0,0,0,0,0,0,0,0
+53,bl =50% open,cl on,bl <50% open,0,0,0,0,0,0,0
+54,bl <50% open,0,0,0,0,0,0,0,0,0
+55,df on,cl on,0,0,0,0,0,0,0,0
+56,bl <50% open,df on,0,0,0,0,0,0,0,0
+58,df on,at on,0,0,0,0,0,0,0,0
+59,bl <50% open,cl off,0,0,0,0,0,0,0,0
+60,bl <50% open,df on,0,0,0,0,0,0,0,0
+62,bl <50% open,tl off,0,0,0,0,0,0,0,0
+63,bl <50% open,cl off,df on,tl on,at on,df off,0,0,0,0
+64,at on,bl <50% open,at off,cl off,at on,0,0,0,0,0
+66,bl <50% open,df on,cl on,cl off,bl <50% open,0,0,0,0,0
+67,bl <50% open,cl on,0,0,0,0,0,0,0,0
+68,bl <50% open,df on,0,0,0,0,0,0,0,0
+69,df on,bl <50% open,0,0,0,0,0,0,0,0
+70,bl >50% open,cl on,bl <50% open,0,0,0,0,0,0,0
+71,bl =50% open,cl on,df on,cl off,0,0,0,0,0,0
+72,bl <50% open,cl on,df on,tl on,0,0,0,0,0,0
+73,bl <50% open,df off,at on,cl on,cl on,0,0,0,0,0
+74,bl >50% open,bl <50% open,df off,0,0,0,0,0,0,0
+77,bl <50% open,df on,bl <50% open,tl on,0,0,0,0,0,0
+78,bl <50% open,at on,df on,0,0,0,0,0,0,0
+0010 ssi,bl >50% open,bl =50% open,df on,bl <50% open,df on,0,0,0,0,0
+0011ssi,tl off,df on,cl on,bl <50% open,0,0,0,0,0,0
+0015ssi,at on,bl <50% open,tl on,cl off,bl <50% open,0,0,0,0,0
+0016ssi,bl <50% open,df on,0,0,0,0,0,0,0,0
+0017ssi,at on,0,0,0,0,0,0,0,0,0
+0021ssi,cl on,bl <50% open,0,0,0,0,0,0,0,0
+0022ssi,cl on,bl <50% open,0,0,0,0,0,0,0,0
+0028ssi,bl <50% open,cl on,at on,cl off,rh on,rh off,df on,0,0,0
+0029ssi,bl <50% open,df on,0,0,0,0,0,0,0,0
+0032ssi,cl on,bl =50% open,bl <50% open,df on,0,0,0,0,0,0

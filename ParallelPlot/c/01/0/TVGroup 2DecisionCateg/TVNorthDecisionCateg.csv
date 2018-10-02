@@ -1,0 +1,46 @@
+Participant_id,1st decision,2nd decision,3rd decision,4th decision,5th decision,6th decision,7th decision,8th decision,9th decision,10th decision,11th decision,12th decision,13th decision,14th decision,15th decision,16th decision
+1,df on,df off,tl on,bl <50% open,cl on,0,0,0,0,0,0,0,0,0,0,0
+2,cl on,cl off,tl on,bl <50% open,cl on,0,0,0,0,0,0,0,0,0,0,0
+3,df on,bl >50% open,cl on,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,df on,cl on,df off,cl on,bl >50% open,tl on,cl off,df off,tl on,bl >50% open,cl on,df on,bl >50% open,bl >50% open,df off,0
+5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,rh on,cl on,bl >50% open,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,bl <50% open,cl on,rh on,tl on,df on,0,0,0,0,0,0,0,0,0,0,0
+8,bl =50% open,df off,cl on,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,tl on,cl off,tl on,df on,0,0,0,0,0,0,0,0,0,0,0,0
+10,df on,tl on,bl >50% open,at off,0,0,0,0,0,0,0,0,0,0,0,0
+11,at off,bl >50% open,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,tl on,bl >50% open,df on,cl on,at off,0,0,0,0,0,0,0,0,0,0,0
+13,df on,tl on,cl on,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,df on,tl on,cl off,tl off,bl =50% open,cl off,df off,0,0,0,0,0,0,0,0,0
+15,bl >50% open,cl on,at off,df on,cl on,df off,tl off,0,0,0,0,0,0,0,0,0
+16,df on,rh on,bl <50% open,tl on,cl on,cl off,tl off,at on,0,0,0,0,0,0,0,0
+17,df on,cl on,bl >50% open,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,cl on,tl on,bl >50% open,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,bl >50% open,at on,at off,cl on,0,0,0,0,0,0,0,0,0,0,0,0
+20,bl <50% open,cl off,tl on,bl >50% open,tl off,cl on,tl on,df off,rh off,at off,0,0,0,0,0,0
+21,cl off,bl <50% open,df off,cl on,rh on,rh off,at off,bl =50% open,cl on,df off,0,0,0,0,0,0
+22,rh on,bl >50% open,rh off,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,rh on,df on,rh off,bl >50% open,cl on,bl =50% open,0,0,0,0,0,0,0,0,0,0
+24,bl >50% open,tl on,cl on,df on,bl <50% open,bl >50% open,0,0,0,0,0,0,0,0,0,0
+25,bl >50% open,rh on,at on,bl >50% open,at off,cl on,df off,0,0,0,0,0,0,0,0,0
+26,df on,bl >50% open,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,df on,cl on,tl on,cl on,bl >50% open,0,0,0,0,0,0,0,0,0,0,0
+28,cl on,rh off,df on,bl >50% open,cl off,tl on,at on,at off,df on,0,0,0,0,0,0,0
+29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,rh on,tl on,cl on,at on,cl on,df on,cl on,rh off,at off,df off,tl on,cl off,0,0,0,0
+31,cl on,rh on,df off,df on,tl on,cl on,0,0,0,0,0,0,0,0,0,0
+32,cl on,bl <50% open,df on,at on,df off,0,0,0,0,0,0,0,0,0,0,0
+33,bl <50% open,at on,cl on,tl off,cl off,at off,cl on,tl on,0,0,0,0,0,0,0,0
+34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,cl on,at off,df on,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,cl on,df on,cl on,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,bl <50% open,df off,tl off,bl <50% open,0,0,0,0,0,0,0,0,0,0,0,0
+38,at on,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,df off,bl >50% open,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,tl on,cl on,bl <50% open,df on,rh off,at on,df off,at off,tl on,0,0,0,0,0,0,0
+41,cl on,tl on,bl >50% open,0,0,0,0,0,0,0,0,0,0,0,0,0
+42,cl on,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+43,bl >50% open,cl on,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,df on,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

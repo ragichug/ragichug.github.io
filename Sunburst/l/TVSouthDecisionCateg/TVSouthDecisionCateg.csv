@@ -1,0 +1,39 @@
+"1st-decision-2nd decision-3rd decision-4th decision-5th decision-6th decision-7th decision-8th decision-9th decision-10th decision 
+",number of participants
+task lamp off-blinds <50% open-task lamp on-0-0-0-0-0-0-0,1
+task lamp off-desk fan on-ceiling lamp on-blinds <50% open-0-0-0-0-0-0-end,1
+desk fan on-ceiling lamp on-0-0-0-0-0-0-0-0,1
+desk fan on-thermostat on-0-0-0-0-0-0-0-0,1
+desk fan on-blinds <50% open-0-0-0-0-0-0-0-0-end,1
+desk fan off-thermostat on-ceiling lamp on-thermostat off-blinds <50% open-desk fan on-0-0-0-0,1
+desk fan off-ceiling lamp off-blinds <50% open-0-0-0-0-0-0-0-end,1
+ceiling lamp on-blinds =50% open-desk fan off-task lamp off-heater off-thermostat off-blinds <50% open-blinds <50% open-0-0,1
+ceiling lamp on-blinds <50% open-0-0-0-0-0-0-0-0,3
+ceiling lamp on-blinds =50% open-blinds <50% open-desk fan on-0-0-0-0-0-0-end,1
+blinds >50% open-desk fan on-blinds =50% open-ceiling lamp on-blinds <50% open-desk fan on-0-0-0-0,1
+blinds >50% open-ceiling lamp on-blinds <50% open-0-0-0-0-0-0-0,1
+blinds >50% open-blinds <50% open-desk fan off-0-0-0-0-0-0-0,1
+blinds >50% open-blinds =50% open-desk fan on-blinds <50% open-desk fan on-0-0-0-0-0-end,1
+blinds =50% open-ceiling lamp on-blinds <50% open-0-0-0-0-0-0-0,1
+blinds =50% open-ceiling lamp on-desk fan on-ceiling lamp off-0-0-0-0-0-0-end,1
+blinds <50% open-desk fan on-task lamp off-0-0-0-0-0-0-0,1
+blinds <50% open-ceiling lamp off-task lamp on-ceiling lamp on-task lamp off-thermostat off-blinds <50% open-0-0-0,1
+blinds <50% open-0-0-0-0-0-0-0-0-0,1
+blinds <50% open-ceiling lamp off-0-0-0-0-0-0-0-0,1
+blinds <50% open-task lamp off-0-0-0-0-0-0-0-0,1
+blinds <50% open-ceiling lamp off-desk fan on-task lamp on-thermostat on-desk fan off-0-0-0-0,1
+blinds <50% open-desk fan on-ceiling lamp on-ceiling lamp off-blinds <50% open-0-0-0-0-0,1
+blinds <50% open-ceiling lamp on-0-0-0-0-0-0-0-0,1
+blinds <50% open-ceiling lamp on-desk fan on-task lamp on-0-0-0-0-0-0,1
+blinds <50% open-desk fan off-thermostat on-ceiling lamp on-ceiling lamp on-0-0-0-0-0,1
+blinds <50% open-desk fan on-blinds <50% open-task lamp on-0-0-0-0-0-0,1
+blinds <50% open-thermostat on-desk fan on-0-0-0-0-0-0-0,1
+blinds <50% open-ceiling lamp on-thermostat on-ceiling lamp off-heater on-heater off-desk fan on-0-0-0,1
+blinds <50% open-desk fan on-0-0-0-0-0-0-0-0-end,7
+thermostat on-blinds <50% open-thermostat off-0-0-0-0-0-0-0,1
+thermostat on-blinds <50% open-ceiling lamp off-task lamp off-desk fan on-0-0-0-0-0,1
+thermostat on-desk fan on-blinds <50% open-task lamp on-0-0-0-0-0-0,1
+thermostat on-blinds <50% open-thermostat off-ceiling lamp off-thermostat on-0-0-0-0-0,1
+thermostat on-blinds <50% open-task lamp on-ceiling lamp off-blinds <50% open-0-0-0-0-0,1
+thermostat on-0-0-0-0-0-0-0-0-0-end,1
+thermostat off-ceiling lamp off-blinds =50% open-task lamp off-desk fan on-0-0-0-0-0-end,1

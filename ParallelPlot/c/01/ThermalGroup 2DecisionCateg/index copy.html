@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+
+<body>
+   
+<script type="text/javascript" src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+
+ <p style="margin-left:20px;">Click here to view the data source</p>
+<p style="margin-left: 32px;">
+<div id="csv" style="width:100%;text-align:  right;">
+
+
+        <script type="text/javascript"charset="utf-8">
+            d3.text("ThermalNorthDecisionCateg.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; })
+                        .style("align-self",right)
+                        ;
+            });
+        </script>
+      </div>
+    </p>
+    
+
+</body>
+</html>

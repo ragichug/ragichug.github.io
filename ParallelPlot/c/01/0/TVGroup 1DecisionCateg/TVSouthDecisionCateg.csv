@@ -1,0 +1,46 @@
+Participant_id,1st decision,2nd decision,3rd decision,4th decision,5th decision,6th decision,7th decision,8th decision,9th decision,10th decision
+1,bl >50% open,df on,bl =50% open,cl on,bl <50% open,df on,0,0,0,0
+2,at on,bl <50% open,at off,0,0,0,0,0,0,0
+3,bl <50% open,df on,0,0,0,0,0,0,0,0
+4,at off,cl off,bl =50% open,tl off,df on,0,0,0,0,0
+5,df off,at on,cl on,at off,bl <50% open,df on,0,0,0,0
+6,bl <50% open,df on,0,0,0,0,0,0,0,0
+7,bl <50% open,df on,tl off,0,0,0,0,0,0,0
+8,df off,cl off,bl <50% open,0,0,0,0,0,0,0
+9,at on,bl <50% open,cl off,tl off,df on,0,0,0,0,0
+10,at on,df on,bl <50% open,tl on,0,0,0,0,0,0
+11,cl on,bl =50% open,df off,tl off,rh off,at off,bl <50% open,bl <50% open,0,0
+12,bl <50% open,cl off,tl on,cl on,tl off,at off,bl <50% open,0,0,0
+13,tl off,bl <50% open,tl on,0,0,0,0,0,0,0
+14,cl on,bl <50% open,0,0,0,0,0,0,0,0
+15,bl =50% open,cl on,bl <50% open,0,0,0,0,0,0,0
+16,bl <50% open,0,0,0,0,0,0,0,0,0
+17,df on,cl on,0,0,0,0,0,0,0,0
+18,bl <50% open,df on,0,0,0,0,0,0,0,0
+19,df on,at on,0,0,0,0,0,0,0,0
+20,bl <50% open,cl off,0,0,0,0,0,0,0,0
+21,bl <50% open,df on,0,0,0,0,0,0,0,0
+22,bl <50% open,tl off,0,0,0,0,0,0,0,0
+23,bl <50% open,cl off,df on,tl on,at on,df off,0,0,0,0
+24,at on,bl <50% open,at off,cl off,at on,0,0,0,0,0
+25,bl <50% open,df on,cl on,cl off,bl <50% open,0,0,0,0,0
+26,bl <50% open,cl on,0,0,0,0,0,0,0,0
+27,bl <50% open,df on,0,0,0,0,0,0,0,0
+28,df on,bl <50% open,0,0,0,0,0,0,0,0
+29,bl >50% open,cl on,bl <50% open,0,0,0,0,0,0,0
+30,bl =50% open,cl on,df on,cl off,0,0,0,0,0,0
+31,bl <50% open,cl on,df on,tl on,0,0,0,0,0,0
+32,bl <50% open,df off,at on,cl on,cl on,0,0,0,0,0
+33,bl >50% open,bl <50% open,df off,0,0,0,0,0,0,0
+34,bl <50% open,df on,bl <50% open,tl on,0,0,0,0,0,0
+35,bl <50% open,at on,df on,0,0,0,0,0,0,0
+36,bl >50% open,bl =50% open,df on,bl <50% open,df on,0,0,0,0,0
+37,tl off,df on,cl on,bl <50% open,0,0,0,0,0,0
+38,at on,bl <50% open,tl on,cl off,bl <50% open,0,0,0,0,0
+39,bl <50% open,df on,0,0,0,0,0,0,0,0
+40,at on,0,0,0,0,0,0,0,0,0
+41,cl on,bl <50% open,0,0,0,0,0,0,0,0
+42,cl on,bl <50% open,0,0,0,0,0,0,0,0
+43,bl <50% open,cl on,at on,cl off,rh on,rh off,df on,0,0,0
+44,bl <50% open,df on,0,0,0,0,0,0,0,0
+45,cl on,bl =50% open,bl <50% open,df on,0,0,0,0,0,0

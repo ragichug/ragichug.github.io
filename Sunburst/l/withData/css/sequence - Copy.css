@@ -1,0 +1,77 @@
+#diag {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  
+  margin-top: 10px;
+  margin:auto;
+  width:100%;
+}
+
+#main {
+  float: left;
+  width: 750px;
+}
+
+#sidebar {
+  float: right;
+  width: 100px;
+}
+
+#sequence {
+  width: 600px;
+  height: 70px;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 260px;
+  left: 305px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#percentage {
+  font-size: 2.5em;
+}
+
+ datafile {
+                text-align: right;
+                opacity: 0;     
+            }
+
+datafile td {
+                border: 1px black solid;
+                padding: 5px;
+             
+}
+.csvfile{
+               border-collapse: collapse; 
+                font: 12px sans-serif;
+                width:90%;
+                margin-left: 25px;
+               }
+#csv{
+  margin-top: 700px;
+}

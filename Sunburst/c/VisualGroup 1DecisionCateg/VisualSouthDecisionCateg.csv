@@ -1,0 +1,31 @@
+"1st decision-2nd decision-3rd decision-4th decision-5th decision-6th decision-7th decision-8th decision 
+",number of participants
+task lamp off-blinds <50% open-task lamp on-0-0-0-0-0,1
+task lamp off-ceiling lamp on-blinds <50% open-0-0-0-0-0-end,1
+ceiling lamp on-blinds <50% open-0-0-0-0-0-0,4
+ceiling lamp on-blinds =50% open-task lamp off-blinds <50% open-blinds <50% open-0-0-0,1
+ceiling lamp on-0-0-0-0-0-0-0,1
+ceiling lamp on-blinds =50% open-blinds <50% open-0-0-0-0-0-end,1
+ceiling lamp off-blinds =50% open-task lamp off-0-0-0-0-0,1
+ceiling lamp off-blinds <50% open-0-0-0-0-0-0-end,1
+blinds >50% open-blinds =50% open-ceiling lamp on-blinds <50% open-0-0-0-0,1
+blinds >50% open-ceiling lamp on-blinds <50% open-0-0-0-0-0,1
+blinds >50% open-blinds <50% open-0-0-0-0-0-0,1
+blinds >50% open-blinds =50% open-blinds <50% open-0-0-0-0-0-end,1
+blinds =50% open-ceiling lamp on-blinds <50% open-0-0-0-0-0,1
+blinds =50% open-ceiling lamp on-ceiling lamp off-0-0-0-0-0-end,1
+blinds <50% open-task lamp off-0-0-0-0-0-0,2
+blinds <50% open-ceiling lamp off-task lamp off-0-0-0-0-0,1
+blinds <50% open-task lamp on-0-0-0-0-0-0,1
+blinds <50% open-ceiling lamp off-task lamp on-ceiling lamp on-task lamp off-blinds <50% open-0-0,1
+blinds <50% open-ceiling lamp off-0-0-0-0-0-0,2
+blinds <50% open-ceiling lamp off-task lamp on-0-0-0-0-0,1
+blinds <50% open-ceiling lamp on-ceiling lamp off-blinds <50% open-0-0-0-0,1
+blinds <50% open-ceiling lamp on-0-0-0-0-0-0,1
+blinds <50% open-ceiling lamp on-task lamp on-0-0-0-0-0,1
+blinds <50% open-ceiling lamp on-ceiling lamp on-0-0-0-0-0,1
+blinds <50% open-blinds <50% open-task lamp on-0-0-0-0-0,1
+blinds <50% open-task lamp on-ceiling lamp off-blinds <50% open-0-0-0-0,1
+blinds <50% open-ceiling lamp on-ceiling lamp off-0-0-0-0-0,1
+blinds <50% open-0-0-0-0-0-0-0-end,11
+0-0-0-0-0-0-0-0-end,2

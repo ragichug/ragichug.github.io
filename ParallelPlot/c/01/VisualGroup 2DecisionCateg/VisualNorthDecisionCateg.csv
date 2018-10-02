@@ -1,0 +1,46 @@
+Participant_id,1st decision,2nd decision,3rd decision,4th decision,5th decision,6th decision,7th decision,8th decision,9th decision,10th decision,11th decision
+1,tl on,bl <50% open,cl on,0,0,0,0,0,0,0,0
+2,cl on,cl off,tl on,bl <50% open,cl on,0,0,0,0,0,0
+3,bl >50% open,cl on,0,0,0,0,0,0,0,0,0
+4,cl on,cl on,bl >50% open,tl on,cl off,tl on,bl >50% open,cl on,bl >50% open,bl >50% open,0
+5,0,0,0,0,0,0,0,0,0,0,0
+6,cl on,bl >50% open,0,0,0,0,0,0,0,0,0
+7,bl <50% open,cl on,tl on,0,0,0,0,0,0,0,0
+8,bl =50% open,cl on,0,0,0,0,0,0,0,0,0
+9,tl on,cl off,tl on,0,0,0,0,0,0,0,0
+10,tl on,bl >50% open,0,0,0,0,0,0,0,0,0
+11,bl >50% open,0,0,0,0,0,0,0,0,0,0
+12,tl on,bl >50% open,cl on,0,0,0,0,0,0,0,0
+13,tl on,cl on,0,0,0,0,0,0,0,0,0
+14,tl on,cl off,tl off,bl =50% open,cl off,0,0,0,0,0,0
+15,bl >50% open,cl on,cl on,tl off,0,0,0,0,0,0,0
+16,bl <50% open,tl on,cl on,cl off,tl off,0,0,0,0,0,0
+17,cl on,bl >50% open,0,0,0,0,0,0,0,0,0
+18,cl on,tl on,bl >50% open,0,0,0,0,0,0,0,0
+19,bl >50% open,cl on,0,0,0,0,0,0,0,0,0
+20,bl <50% open,cl off,tl on,bl >50% open,tl off,cl on,tl on,0,0,0,0
+21,cl off,bl <50% open,cl on,bl =50% open,cl on,0,0,0,0,0,0
+22,bl >50% open,0,0,0,0,0,0,0,0,0,0
+23,bl >50% open,cl on,bl =50% open,0,0,0,0,0,0,0,0
+24,bl >50% open,tl on,cl on,bl <50% open,bl >50% open,0,0,0,0,0,0
+25,bl >50% open,bl >50% open,cl on,0,0,0,0,0,0,0,0
+26,bl >50% open,0,0,0,0,0,0,0,0,0,0
+27,cl on,tl on,cl on,bl >50% open,0,0,0,0,0,0,0
+28,cl on,bl >50% open,cl off,tl on,0,0,0,0,0,0,0
+29,0,0,0,0,0,0,0,0,0,0,0
+30,tl on,cl on,cl on,cl on,tl on,cl off,0,0,0,0,0
+31,cl on,tl on,cl on,0,0,0,0,0,0,0,0
+32,cl on,bl <50% open,0,0,0,0,0,0,0,0,0
+33,bl <50% open,cl on,tl off,cl off,cl on,tl on,0,0,0,0,0
+34,0,0,0,0,0,0,0,0,0,0,0
+35,cl on,0,0,0,0,0,0,0,0,0,0
+36,cl on,cl on,0,0,0,0,0,0,0,0,0
+37,bl <50% open,tl off,bl <50% open,0,0,0,0,0,0,0,0
+38,0,0,0,0,0,0,0,0,0,0,0
+39,bl >50% open,0,0,0,0,0,0,0,0,0,0
+40,tl on,cl on,bl <50% open,tl on,0,0,0,0,0,0,0
+41,cl on,tl on,bl >50% open,0,0,0,0,0,0,0,0
+42,cl on,0,0,0,0,0,0,0,0,0,0
+43,bl >50% open,cl on,0,0,0,0,0,0,0,0,0
+44,0,0,0,0,0,0,0,0,0,0,0
+45,0,0,0,0,0,0,0,0,0,0,0
